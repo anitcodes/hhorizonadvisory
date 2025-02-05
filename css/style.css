@@ -50,6 +50,16 @@ body {
     font-size: 0.9rem;
 }
 
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.contact-info a:hover {
+    color: #3498db;
+}
+
 .topbar .social-links {
     display: flex;
     gap: 1rem;
@@ -123,9 +133,14 @@ body {
     margin-top: 37px;
 }
 
+.hero-content {
+    max-width: 700px;
+}
+
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    line-height: normal;
 }
 
 .hero-content p {
@@ -398,6 +413,10 @@ body {
 .member-image {
     height: 250px;
     overflow: hidden;
+}
+
+#mamata {
+    object-position: 0 -160px;
 }
 
 .team-member h3 {
