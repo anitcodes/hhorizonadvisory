@@ -752,6 +752,10 @@ footer {
     padding-bottom: 0.8rem;
 }
 
+.footer-section img {
+    width: 100px;
+}
+
 .footer-section h4::after {
     content: '';
     position: absolute;
