@@ -31,6 +31,15 @@
     }
 
     /* Hero Section */
+    #home{
+       height: 500px;
+    }
+
+    .hero-content {
+        text-align: center;
+        padding: 3rem 5%;
+    }
+
     .hero-content h1 {
         font-size: 2rem;
     }

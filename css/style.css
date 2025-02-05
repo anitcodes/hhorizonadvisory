@@ -19,6 +19,7 @@
     border-radius: 5px;
 }
 
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -132,10 +133,10 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    height: calc(100vh - 37px);
     width: 100%;
     overflow: hidden;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
     background-size: cover;
     background-position: center;
     display: flex;
@@ -169,7 +170,7 @@ body {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .cta-button:hover {
@@ -201,7 +202,7 @@ body {
 
 .slide:nth-child(1) {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=cover&w=2070&q=80') center/cover no-repeat;
+    url('https://images.pexels.com/photos/17845104/pexels-photo-17845104/free-photo-of-kanchanjunga-mountain-sunrise.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
 }
 
 .slide:nth-child(2) {
