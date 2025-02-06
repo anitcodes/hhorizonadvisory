@@ -160,6 +160,7 @@ body {
 
 .hero-content h1 {
     font-size: 5rem;
+    font-weight: 900;
     margin-bottom: 1rem;
     line-height: normal;
 }
