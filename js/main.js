@@ -254,6 +254,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add this to your existing JavaScript
+    const dropdownToggleMobile = (e) => {
+        e.preventDefault();
+        smoothToggle(dropdown);
+        dropdown.classList.toggle('active');
+    };
+
+    if (window.innerWidth <= 768) {
+        dropdownToggle.addEventListener('click', dropdownToggleMobile);
+    }
+
     const dropdown = document.querySelector('.dropdown');
     const dropdownToggle = dropdown.querySelector('a');
 
@@ -264,3 +274,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 }); 
+
+
