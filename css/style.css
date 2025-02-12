@@ -26,6 +26,32 @@ body {
     color: #333;
 }
 
+/* chatbot icon */
+#chatbot-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#chatbot-icon:hover {
+    background-color: #45a049;
+}
+
+#chatbot-icon a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Navigation */
 
 /* Topbar */
