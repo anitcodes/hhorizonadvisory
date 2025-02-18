@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Manage Blogs</title>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <div class="max-w-4xl mx-auto p-6">
+        <h1 class="text-3xl font-bold text-center text-blue-600">Admin Panel</h1>
+        <p class="text-center text-gray-600 mt-2">Manage your blog posts</p>
+
+        <a href="index.html" class="block text-center mt-4 text-blue-500">Go to Blog Page</a>
+        <button onclick="logout()" class="bg-red-500 text-white px-4 py-2 rounded mt-2">Logout</button>
+
+        <!-- Form to add/edit blog -->
+        <div class="bg-white p-6 mt-6 rounded-lg shadow-lg">
+            <h2 class="text-lg font-bold">Add/Edit Blog Post</h2>
+            <input type="hidden" id="editIndex">
+            <input id="title" type="text" placeholder="Title" class="w-full p-2 border rounded mt-2">
+            <input id="date" type="date" class="w-full p-2 border rounded mt-2">
+            <textarea id="content" placeholder="Content" class="w-full p-2 border rounded mt-2"></textarea>
+            <button onclick="saveBlog()" class="bg-blue-500 text-white px-4 py-2 rounded mt-2">Save</button>
+        </div>
+
+        <!-- List of blog posts -->
+        <div id="blog-list" class="mt-6 space-y-6">
+            <!-- Blog posts will be inserted here dynamically -->
+        </div>
+    </div>
+
+</body>
+</html>
